@@ -1,0 +1,19 @@
+# Ignore build artifacts
+*.o
+*.exe
+*.out
+*.class
+*.log
+
+# Editor settings
+*.swp
+*~
+
+# OS cruft
+.DS_Store
+
+# Compiled test results
+/tests/*.out
+
+# vscode tasks you want to keep, but no launch logs:
+.vscode/launch.json
